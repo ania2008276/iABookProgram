@@ -44,6 +44,7 @@ public class LoginController {
                 System.out.println(user.getFirstName());
                 System.out.println(user.getSurname());
                 toJson();
+
                 IaBookProgram.setRoot("student-view");
             } else if (textMatches) {
                 System.out.println("You entered a number.");
